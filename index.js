@@ -51,7 +51,7 @@ function initClickListeners() {
 
 document.addEventListener("DOMContentLoaded", () => displayTodos())
 
-document.getElementById("submit-new-todo-btn").addEventListener("click", ($event) => {
+document.getElementById("submit-new-todo-btn").addEventListener("click", (event) => {
     const newTodoInput = document.getElementById("new-todo-input");
     if(newTodoInput.value) {
         addTodo(newTodoInput.value.trim());
@@ -59,7 +59,7 @@ document.getElementById("submit-new-todo-btn").addEventListener("click", ($event
     }
 });
 
-document.getElementById("reset-storage-btn").addEventListener("click", ($event) => {
+document.getElementById("reset-storage-btn").addEventListener("click", (event) => {
     localStorage.removeItem(storageKey);
     displayTodos();
 });
