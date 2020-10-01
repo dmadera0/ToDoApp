@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://download.hipwallpaper.com/desktop/1600/900/37/45/kG8Cjo.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#main {
+    width: 520px;
+    margin-left: calc(50% - 260px);
+    background-color: rgba(122, 83, 96, 0.404);
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px rgb(116, 8, 8);
+    border-radius: 25px;
+}
+
+#todo-list-container {
+    overflow-y: auto;
+    height: 500px;
+}
+
+.small-bottom-margin {
+    margin-bottom: 15px;
+}
+
+#header {
+    text-align: center;
+}
+
+#new-todo-input {
+    width: 400px;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(119, 115, 115, 0.623);
+}
+
+#submit-new-todo-btn {
+    float: right;
+    width: 75px;
+}
+
+#todo-list-container li {
+    cursor: pointer;
+    background-color: white;
+}
+#todo-list-container li:hover {
+    background-color: gray;
+}
+
+#reset-storage-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+}
