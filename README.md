@@ -12,6 +12,9 @@
 ## General Info
 The toDoApp is a Frontend application that allows user to set up a To Do list in a visually appealing space. The app allows you create a new task, delete the task and clear all list at the end of use.
 
+# Video
+[Video](https://www.youtube.com/watch?v=T9_N6rO7Wa8&ab_channel=DanielMadera)
+
 # Technologies
 * JavaScript
 * CSS
