@@ -1,5 +1,5 @@
-# MyMoviesFrontend
-# MyMovies App
+# ToDoApp
+# ToDoApp
  A great place to view and orginize all your favorite movies
 # Table of contents
 * [General Info](#general-info)
