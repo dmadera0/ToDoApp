@@ -29,6 +29,10 @@ body {
 
 #header {
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgba(240, 128, 128, 0.438);
+    font-style: italic;
+    text-shadow: 2px 2px rgba(231, 23, 23, 0.534);
 }
 
 #new-todo-input {
@@ -39,16 +43,17 @@ body {
 }
 
 #submit-new-todo-btn {
+    background-color: rgb(117, 176, 180);
     float: right;
     width: 75px;
 }
 
 #todo-list-container li {
     cursor: pointer;
-    background-color: white;
+    background-color:grey;
 }
 #todo-list-container li:hover {
-    background-color: gray;
+    background-color:rgb(233, 88, 88);
 }
 
 #reset-storage-btn {
